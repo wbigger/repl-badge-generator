@@ -25,7 +25,7 @@ function update(){
 function repl(link){
   document.querySelector(`#preview-image`).setAttribute(`src`, `try.png`);
   document.querySelector(`#preview-link`).setAttribute(`href`, link + '?ref=button');
-  document.querySelector(`#markdown`).setAttribute(`onclick`, `simplecopy('[![Try on repl.it](https://repl-badge.jajoosam.repl.co/try.png)](${link}?ref=button)');alert('Copied to clipboard 📋')`)
+  document.querySelector(`#markdown`).setAttribute(`onclick`, `simplecopy('[![Try on repl.it](https://github.com/wbigger/repl-badge-generator/raw/master/try.png)](${link}?ref=button)');alert('Copied to clipboard 📋')`)
 }
 
 function repo(link){
